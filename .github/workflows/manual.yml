@@ -31,7 +31,7 @@ jobs:
     - name: Send greeting
       run: |
         echo "Hello ${{ inputs.name }}"
-        mkdir ${{ inputs.name }}"
+        mkdir "${{ inputs.name }}"
         ls -la
         pwd
       
